@@ -3,9 +3,29 @@
 Install git in your local system
 
 Create an account in github
-	https://github.com/piano9014/inetbankingv1.git
+https://github.com/piano9014/inetbankingv1.git   (Remote Repo url)
 	
 	
 	GIT Commands
 	
-	git init  ---  Create an empty repository
+	git init  ---  Create an empty git repository (Local repo)
+	git remote add origin "https://github.com/piano9014/inetbankingv1.git" [connect local and remote repo]
+	
+	
+	git status --- what are files ready to commit in git repo, files are untracked or red color
+	
+	git add -A  [Adding all files to staging area from Eclipse] [Adding files to staging area so are tracked now]
+	
+	git status - now all files are added to staging area and will be green means all files are tracked now
+	
+	git config --global user.name "piano9014"  
+	git config --global user.email "piano9014@gmail.com"
+	
+	git commit -m "This is my first commit" [commit files from staging area to git local repo]
+	
+	git status [nothing to commit, all files are commited and are part of git repo or local repo]
+	
+	For 2nd time onwards you only need to do commands git status, git add -A, git commit -m
+	
+	
+	
