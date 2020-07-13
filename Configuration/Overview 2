@@ -1,0 +1,35 @@
+
+
+1) Run tests using pom.xml (within Eclipse)
+
+a) dependencies --- Download jars 
+
+b) Plugins --- used to run Maven project
+
+		maven-compiler-plugin
+		maven-surefire-plugin
+	
+	pom.xml -- Run as Maven test
+	
+	Error: [Error] No compiler is provided in this environment. Perhaps you are running
+	on JRE rather than JDK
+ 
+	Solution: Go to Eclipse Window > Java > Installed JRE > Check it should be JDK and not JRE
+	Select the Execution Environment as C:\Program files\Java\jdk..
+
+
+
+
+2) Run test cases through Maven CLI
+	Need to install Apache Maven on Windows OS
+	search download Apache Maven > Download Zip file and extract to C drive
+	
+	Location of MAven Home Directory: C:\apache-maven-3.6.3\bin
+	
+	Go to Environment Variables (Right click on My PC - Properties - Advanced system settings
+	Add folder to environment variable
+	
+
+	
+
+

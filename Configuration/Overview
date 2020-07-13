@@ -1,0 +1,56 @@
+
+Steps:
+1) Create new Maven project
+2) Update pom.xml
+3) Create folder structure
+4) Create page object class for login screen
+5) Create base class
+6) create Login test case
+7) See integration of Config.properties, ReadConfig.java and Base Class
+8) Add logs to test case
+9) Read common values from properties file
+9) Run test case on desired browser
+10)Add extent report
+10)Create Data Driven test case
+10)Adding new test case
+
+
+Read common values from Config.properties file:
+1) Config.properties
+2) ReadConfig.java
+3) Base Class
+
+
+Maven ---> pom.xml
+Download dependencies from mvnrepository.com
+
+log4j  ----> log4j.jar in pom.xml
+log4j.properties ---> 
+
+Add extent report:
+1) Extent report Jars ---> in pom.xml
+2) extent-config.xml ----> in Home directory
+3) Listener class (Reporting.java) ---> Utility file
+4) Add entry in Testng.xml file (<Listener>)
+
+System.getProperty("user.dir") ----> Only in java classes
+./  ---> in java classes & in properties
+
+
+Run Test case on desired browser
+1) Code in Base Class
+2) Code in Testng.xml
+
+
+Data Driven Test Case (For example read data from xlsx file) : 
+1) Apache Poi jar 
+2) Apache Poi - ooxml to read xls file
+3) XLS or XLSX file 
+4) XLUtils.java
+
+
+
+New Test Case
+1) Page Object Class
+2)  kTest case
+
